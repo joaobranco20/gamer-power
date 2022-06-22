@@ -83,7 +83,7 @@ export function Game() {
                 </div>
 
                 <div className="game-details-info-link">
-                    <a href={game?.gamerpower_url} target="_blank">
+                    <a href={game?.gamerpower_url} target="_blank" rel="noreferrer">
                         Giveaway
                     </a>
                 </div>

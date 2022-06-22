@@ -12,13 +12,13 @@ export function Footer() {
 
             <ul className='social'>
                 <li>
-                    <a href="https://www.instagram.com/" target="_blank">
+                    <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
                         <FiInstagram />
                     </a>
                 </li>
 
                 <li>
-                    <a href="https://www.facebook.com/" target="_blank">
+                    <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
                         <FiFacebook />
                     </a>
                 </li>
