@@ -1,0 +1,39 @@
+footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5rem 0 1.5rem;
+
+    background-color: var(--grey);
+    z-index: 100;
+
+    .email {
+        font-weight: 700;
+        font-size: 1rem;
+    }
+
+    .social {
+        display: flex;
+    }
+
+    .social:hover {
+        opacity: 80%;
+        transition: 0.3s;
+    }
+
+    .social li {
+        font-size: 1.25rem;
+        margin: 0 0 0 .75rem;
+
+        svg {
+            display: block;
+        }
+
+    }
+
+}
