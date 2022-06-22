@@ -12,7 +12,7 @@ export function Home() {
 
     useEffect(() => {
         async function getGames() {
-            const response = await fetch('giveaways');
+            const response = await fetch('https://www.gamerpower.com/api/giveaways');
             const data = await response.json();
             setGames(data);
         }
